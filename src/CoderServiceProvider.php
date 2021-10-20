@@ -2,7 +2,12 @@
 
 namespace RXMG\Coder;
 
-class CoderServiceProvider
-{
+use Illuminate\Support\ServiceProvider;
 
+class CoderServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+
+    }
 }
