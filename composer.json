@@ -1,0 +1,20 @@
+{
+  "name": "rxmg/coder",
+  "description": "A package for overriding the Cors middleware when using Coder.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charles Bilbo",
+      "email": "c.bilbo@rxmg.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "RXMG\\Coder\\": "src/"
+    }
+  }
+}
